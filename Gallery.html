@@ -7,22 +7,32 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Emma NP Gallery</title>
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 </head>
 
 <body>
-  <header>
-    <div class="logo">💃</div>
-    <nav class="main-nav">
-      <ul>
-        <li>
-          <a href="./About.html">About</a>
-        </li>
-        <li>
-          <a href="./Gallery.html">Photo Gallery</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+    <header>
+        <a href="./index.html">
+          <div class="logo">
+            <img id="homeImage" src="assets/homeImage.png" alt="Emma NP">
+          </div>
+        </a>
+        <nav class="main-nav">
+          <ul>
+            <li>
+              <a href="./About.html">About</a>
+            </li>
+            <li>
+              <a href="./Gallery.html">Photo Gallery</a>
+            </li>
+            <li>
+              <a href="./Reels.html">Reels</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
   <div class="overlay">
     <div class="overlay-inner">
       <button class="close">× Close</button>
@@ -33,23 +43,23 @@
   <section class="gallery">
   </section>
   <footer>
-      <h3>Find Me</h3>
-      <nav class="social-nav">
-        <ul>
-          <li class="social facebook">
-            <a href="https://www.facebook.com/emma.np.9">
-              <div class="icons8-facebook-filled"></div>
+    <h3>Find Me</h3>
+    <nav class="social-nav">
+      <ul>
+        <li class="social facebook">
+          <a href="https://www.facebook.com/emma.np.9">
+            <div class="icons8-facebook-filled"></div>
+          </a>
+        </li>
+        <li class="social twitter">
+          <li class="social">
+            <a href="https://www.instagram.com/emma_np/">
+              <div class="icons8-instagram-filled"></div>
             </a>
           </li>
-          <li class="social twitter">
-            <li class="social">
-              <a href="https://www.instagram.com/emma_np/">
-                <div class="icons8-instagram-filled"></div>
-              </a>
-            </li>
-        </ul>
-      </nav>
-    </footer>
+      </ul>
+    </nav>
+  </footer>
   <style>
     * {
       box-sizing: border-box;
@@ -190,7 +200,7 @@
     function generateHTML([h, v]) {
       return `
         <div class="item h${h} v${v}">
-          <img src="./assets/images/${randomNumber(12)}.jpg">
+          <img src="./assets/images/${randomNumber(20)}.jpg">
           <div class="item__overlay">
             <button>View →</button>
           </div>
