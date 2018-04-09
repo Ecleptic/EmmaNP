@@ -80,8 +80,8 @@ footer {
   text-align: center;
 }
 button {
-  background-color: #3a155c;
-  border: none;
+  background-color: #3a155c00;
+  border: 3px solid white;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -93,7 +93,9 @@ button {
   /* height: 50px; */
 }
 button:hover {
-  background-color: #3a155cb7; /* Green */
+  background-color: #0000007a;
+  border: 3px solid #c9c9c9;
+
 }
 
 #homeImage {
